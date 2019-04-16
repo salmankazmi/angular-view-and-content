@@ -15,15 +15,15 @@ export class AppComponent {
   /* @ViewChild(HelloComponent)
   myHello; */
   
-  @ViewChildren(HelloComponent)
-  myHellos: QueryList<HelloComponent>;
+  //@ViewChildren(HelloComponent)
+  //myHellos: QueryList<HelloComponent>;
 
   ngOnInit() {
-    let animals: Animal[] = [new Animal('lion'),new Animal('tiger')];
+    //let animals: Animal[] = [new Animal('lion'),new Animal('tiger')];
     
   }
 
   ngAfterViewInit() {
-    console.log(this.myHellos);
+    //console.log(this.myHellos);
   }
 }
